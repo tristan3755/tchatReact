@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  background-color: darkred;
+  margin: 0;
+}
+
+html,body {
+  height: 100vh;
+}
+
+header > * {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.connection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 84vh;
+  width: 20%;
+  background-color: black;
+}
+
+.connection > * {
+  color: white;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: darkred;
+  width: 100%;
+  height: 6vh;
+  margin: 0;
+}
+
+footer > * {
+  color: white;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  width: 100%;
+  height: 84vh;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 84vh;
+  border: 15px black solid;
+ 
+  
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  border: 15px black solid;
+  border-left:0px;
+}
+
+textarea {
+  resize: none;
+  width: 80%;
+  border: 3px black solid;
+}
+
+.bouton{
+
+    width: 180px;
+    border-radius:10px;
+    background-color: white;
+    border: 3px black solid;
+    font-size: 20px;
+
+}
+
+.bouton:hover{
+
+    cursor:pointer;
+    background-color: darkred;
+    border: 3px white solid;
+    color: white;
+
+}
+
+h2{
+    font-size: 30px;
+}
+
+.log{
+
+    border-radius:5px;
+    margin: 10px;
+    height: 35px;
+    border: 3px darkred solid;
+    background-color: white;
+
+
+}
+
+
+.log:hover{
+
+    cursor:pointer;
+    background-color: darkred;
+    border: 3px white solid;
+    color: white;
+
+}
+
+.login{
+
+    border-radius:5px;
+    height: 35px;
+    width: 250px;
+    border: 3px darkred solid;
+
+
+}
+
+
+.appli{
+
+  height: 50vh;
+  width: 80%;
+
+}
+
+
+.appli p{
+
+display:flex;
+flex-direction: column;
+justify-content: space-evenly;  
+width: 20%;
+height:auto;
+
+}
